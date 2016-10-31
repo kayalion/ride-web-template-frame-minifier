@@ -1,0 +1,24 @@
+{
+    "name": "ride/web-template-frame-minifier",
+    "description": "Frame template integration for the minifier of the Ride framework",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Joris Vandeweerd",
+            "email": "joris@statik.be"
+        }
+    ],
+    "require": {
+        "ride/app": "^1.0.0",
+        "ride/app-template": "^1.0.0",
+        "ride/app-template-frame": "*",
+        "ride/lib-minifier": "^1.0.0",
+        "ride/web": "^1.0.0",
+        "ride/web-minifier": "^1.0.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "ride\\web\\template\\frame\\func\\": ["src/"]
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "dependencies": [
+        {
+            "interfaces": "frame\\library\\func\\TemplateFunction",
+            "class": "ride\\web\\template\\frame\\func\\ScriptTemplateFunction",
+            "id": "script",
+            "tags": "frame"
+        },
+        {
+            "interfaces": "frame\\library\\func\\TemplateFunction",
+            "class": "ride\\web\\template\\frame\\func\\StyleTemplateFunction",
+            "id": "style",
+            "tags": "frame"
+        }
+    ]
+}
