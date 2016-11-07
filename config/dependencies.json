@@ -1,16 +1,16 @@
 {
     "dependencies": [
         {
-            "interfaces": "frame\\library\\func\\TemplateFunction",
-            "class": "ride\\web\\template\\frame\\func\\ScriptTemplateFunction",
+            "interfaces": "huqis\\func\\TemplateFunction",
+            "class": "ride\\web\\template\\huqis\\func\\ScriptTemplateFunction",
             "id": "script",
-            "tags": "frame"
+            "tags": "huqis"
         },
         {
-            "interfaces": "frame\\library\\func\\TemplateFunction",
-            "class": "ride\\web\\template\\frame\\func\\StyleTemplateFunction",
+            "interfaces": "huqis\\func\\TemplateFunction",
+            "class": "ride\\web\\template\\huqis\\func\\StyleTemplateFunction",
             "id": "style",
-            "tags": "frame"
+            "tags": "huqis"
         }
     ]
 }
